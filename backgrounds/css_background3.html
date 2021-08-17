@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                background-color: green;
+            }
+
+            div.first {
+                opacity: 0.1;
+            }
+
+            div.second {
+                opacity: 0.3;
+            }
+
+            div.third {
+                opacity: 0.6;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Caixa transparente</h1>
+        <p>Quando usar a propriedade de opacidade para adicionar 
+            transparência para o fundo de um elemento,
+            todos os seus elementos filhos também se tornam
+            transparentes. Isto pode tornar o texto contido num
+            elemento transparente difícil de ler:</p>
+
+        <div class="first">
+            <h1>opacidade 0.1</h1>
+        </div>
+        
+        <div class="second">
+            <h1>opacidade 0.3</h1>
+        </div>
+
+        <div class="third">
+            <h1>opacidade 0.6</h1>
+        </div>
+
+        <div>
+            <h1>opacidade 1 (padrão)</h1>
+        </div>
+        
+    </body>
+</html>
