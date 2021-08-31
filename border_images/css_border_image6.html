@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div1 {
+                border: 1px solid black;
+                height: 120px;
+                width: 150px;
+                background: url(img_flwr.gif);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            .div2 {
+                border: 1px solid black;
+                height: 120px;
+                width: 150px;
+                background: url(img_flwr.gif);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .div3 {
+                border: 1px solid black;
+                height: 120px;
+                width: 150px;
+                background: url(img_flwr.gif);
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Propriedade de tamanho do fundo</h1>
+
+        <h2>tamanho do fundo: contido:</h2>
+        <div class="div1">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <h2>tamanho do fundo: cobir:</h2>
+        <div class="div2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <h2>Sem tamanho de fundo definido:</h2>
+        <div class="div3">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <p>Imagem original:</p>
+        <img src="img_flwr.gif" alt="Flores"
+            width="224" height="162">
+            
+    </body>
+</html>

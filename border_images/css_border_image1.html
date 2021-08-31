@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #borderimg {
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image: url(border.png) 30 round;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Propriedade de borda da imagem</h1>
+
+        <p>Aqui, as seções do meio da imagem são 
+            repetidas para criar a borda:</p>
+        <p id="borderimg">imagem da borda: url(border.png)
+            30 round;</p>
+            
+        <p>Aqui está a imagem orignal</p><img 
+            src="border.png">
+        <p><strong>Nota:</strong> Internet Explorer 10 
+            e versões anteriores não suportam a propriedade 
+        de borda da imagem.</p>
+                
+    </body>
+</html>
