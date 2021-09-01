@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        div.card {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        div.header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+
+        h1#headerText {
+            font-size: 50px;
+        }
+        </style>
+    </head>
+    <body>
+
+        <h2>Cards</h2>
+
+        <p>The box-shadow property can be used to create paper-like cards:</p>
+
+        <div class="card">
+            <div class="header">
+                <h1 id="headerText">1</h1>
+                <p>
+                    <script type="text/javascript">
+                        var today = new Date();
+                        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                        document.getElementById("headerText").innerHTML = today.getDate();
+                    </script>
+                </p>
+            </div>
+
+            <div class="container">
+                <p id="foot">
+                    <script type="text/javascript">
+                        var temp = new Date();
+                        var currentDate = (today.getMonth()+1);
+                        var dateWord;
+                        if (currentDate == '9') {
+                            dateWord = 'September';
+                        }
+                        document.getElementById("foot").innerHTML = dateWord + ',' + ' 2021';
+                    </script>
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>

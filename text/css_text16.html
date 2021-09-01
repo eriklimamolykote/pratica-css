@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.test1 {
+                writing-mode: horizontal-tb;
+            }
+
+            span.test2 {
+                writing-mode: vertical-rl;
+            }
+
+            p.test2 {
+                writing-mode: vertical-rl;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>A Propriedade de modo de escrita</h1>
+
+        <p class="test1">Algum texto com modo de escrita padrão.</p>
+
+        <p>Algum texto com um elemento de divisão com um 
+            modo de escrita <span class="test2">vertical-rl</span>.</p>
+
+        <p class="test2">Algum texto com modo de escrita: vertical-rl.</p>
+            
+    </body>
+</html>

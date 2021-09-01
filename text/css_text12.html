@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.test1 {
+                white-space: nowrap;
+                width: 200px;
+                border: 1px solid #000000;
+                overflow: hidden;
+                text-overflow: clip;
+            }
+
+            p.test2 {
+                white-space: nowrap;
+                width: 200px;
+                border: 1px solid #000000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Propriedade de estouro de texto</h1>
+        <p>Os dois parágrafos seguintes contém um longo 
+            texto que não se encaixam na caixa.</p>
+
+        <h2>estouro de texto: clip:</h2>
+        <p class="test1">Isto é algum texto que não 
+            se encaixará na caixa</p>
+            
+        <h2>estouro de texto: elipse:</h2>
+        <p class="test2">Isto é algum texto que não 
+            se encaixará na caixa</p>
+
+    </body>
+</html>

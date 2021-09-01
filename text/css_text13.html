@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.test {
+                white-space: nowrap;
+                width: 200px;
+                overflow: hidden;
+                border: 1px solid #000000;
+            }
+
+            div.test:hover {
+                overflow: visible;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <p>Repouse sobre as duas divisórias abaixo para ver 
+            todo o texto.</p>
+        <div class="test" style="text-overflow:ellipsis;">
+            Isto é algum longo texto que não se encaixará na caixa</div>
+        <br>
+        <div class="test" style="text-overflow:clip;">Isto é algum 
+            longo texto que não se encaixará na caixa</div>
+                
+    </body>
+</html>
