@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          #grad1 {
+              height: 200px;
+              background-color: lightgreen; /* Para browsers que 
+                não suportam gradientes */
+              background-image: linear-gradient(blue, lightgreen, green);  
+          }
+
+          #grad2 {
+              height: 200px;
+              background-color: red; /* Para browsers que 
+                não suportam gradientes */
+              background-image: linear-gradient(red, 
+                orange, yellow, green, blue, indigo, violet);     
+          }
+
+          #grad3 {
+              height: 200px;
+              background-color: red; /* Para browsers que 
+                não suportam gradientes */
+              background-image: linear-gradient(magenta 10%, 
+                red 85%, pink 90%);  
+          }
+        </style>
+    </head>
+    <body>
+
+        <h1>Gradientes Linears - Paradas de Cores Múltiplas</h1>
+        <p><strong>Nota:</strong> Paradas de cores são 
+            espaçadas uniformemente quando não há percentuais
+            especificados.</p>
+
+        <h2>Paradas de 3 Cores (uniformemente espaçadas):</h2>
+        <div id="grad1"></div>
+        
+        <h2>Paradas de 7 Cores (uniformemente espaçadas):</h2>
+        <div id="grad2"></div>
+
+        <h2>Paradas de 3 Cores (não uniformeente espaçadas):</h2>
+        <div id="grad3"></div>
+        
+    </body>
+</html>

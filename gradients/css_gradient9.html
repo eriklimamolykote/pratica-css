@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           #grad1 {
+            height: 150px;
+            width: 200px;
+            background-color: red; /* Para browsers que 
+                não suportam gradientes */
+            background-image: radial-gradient(red 5%, 
+                yellow 15%, green 60%);    
+
+           }
+
+           #grad2 {
+            height: 150px;
+            width: 200px;
+            background-color: red; /* Para browsers que 
+                não suportam gradientes */
+            background-image: radial-gradient(circle, red, yellow, green);    
+           }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Gradiente Radial - Formas</h1>
+
+        <h2>Elipse (esta é padrão):</h2>
+        <div id="grad1"></div>
+
+        <h2><strong>Círculo:</strong></h2>
+        <div id="grad2"></div>
+        
+    </body>
+</html>
